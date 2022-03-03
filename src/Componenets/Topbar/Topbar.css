@@ -1,0 +1,58 @@
+.Topbar{
+    width: 100%;
+    height: 50px;
+  background-color: #03203C;
+  position: sticky;
+  top:0;
+  z-index: 999;
+}
+.TopbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.topleft{
+    height: 100%;
+    color:white;
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+
+
+
+}
+.topright{
+    display: flex;
+    align-items: center;
+
+}
+.topRightIcons{
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.iconsBag{
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    top:-10px;
+    right: -1px;
+    background-color: red;
+    border-radius: 50%;
+    color: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+
+}
+.topAvatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.widgetSmall{
+    flex:1;
+    box-shadow: -1px -3px 23px 0px rgba(232,230,230,0.75);
+    -webkit-box-shadow: -1px -3px 23px 0px rgba(232,230,230,0.75);
+    -moz-box-shadow: -1px -3px 23px 0px rgba(232,230,230,0.75);
+    margin-right: 20px;
+}
+.widgetSmallTitle{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+   
+}
+
+.widgetSmallImage{
+    font:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-right: 20px;
+}
+.widgetSmallItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+.widgetSmallList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.WidgetSmUser{
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmUserName{
+    font-weight: 600;
+}
+.widgetSmUserJob{
+    font-weight: 300;
+}
+.btnSmall{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 25px;
+   
+}
+.btnSmall:hover{
+    cursor: pointer;
+}
